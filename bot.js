@@ -19,7 +19,7 @@ const client = new TwitterApi({
   accessSecret: process.env.ACCESS_TOKEN_SECRET,
 }).readWrite;
 
-const videoTweetUrl= "https://x.com/khoon_choos_ley/status/1840297474801709291/video/1"
+const videoTweetUrl= "https://x.com/khoon_choos_le/status/1840617572120625549/video/1"
 
 async function tweetWithEmbeddedVideo() {
     try {
